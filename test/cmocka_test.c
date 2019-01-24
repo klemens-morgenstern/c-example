@@ -13,8 +13,8 @@ static void test_one(void ** state)
     assert_true(1);
     assert_false(0);
     assert_in_range(6, 1, 7);
-    assert_int_equal(3, 3);
-    assert_int_not_equal(2, 4);
+    assert_int_equal(3, 5);
+    assert_int_not_equal(4, 4);
 }
 
 static void test_two(void ** state)
@@ -22,8 +22,8 @@ static void test_two(void ** state)
     int i, j;
     assert_null(NULL);
     assert_ptr_equal(NULL, NULL);
-    assert_ptr_not_equal(&i, &j);
-    assert_ptr_equal(&i, &i);
+    assert_ptr_not_equal(&i, &i);
+    assert_ptr_equal(&i, &j);
 }
 
 int main(void)
