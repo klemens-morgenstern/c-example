@@ -4,7 +4,7 @@
 Test(suite_1, test_1)
 {
     cr_expect(2, "Dummy test");
-    cr_expect(0, "foo");
+    cr_expect(1, "foo");
 
     cr_assert_eq(3, 3, "Foobar %i", 42);
     cr_assert_neq(4, 3, "Boofar %i", 42);
