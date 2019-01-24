@@ -1,0 +1,12 @@
+[submodule "libs/cmocka"]
+	path = libs/cmocka
+	url = git://git.cryptomilk.org/projects/cmocka.git
+	branch = master
+[submodule "libs/criterion"]
+	path = libs/criterion
+	url = https://github.com/Snaipe/Criterion
+	branch = master
+[submodule "libs/unity"]
+	path = libs/unity
+	url = https://github.com/ThrowTheSwitch/unity
+	branch = master
